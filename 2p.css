@@ -1,0 +1,127 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de menú rojo oscuro */
+.menu {
+    background-color: #6B0000;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #8B0000;
+}
+
+/* Header azul oscuro con mensaje y íconos de redes sociales */
+.header {
+    background-color: #000066;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.header .message {
+    flex: 1;
+}
+
+.header .social-icons a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Imagen de la empresa */
+.company-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenido principal */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Información de la empresa */
+.company-info {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Botón interactivo de contacto */
+.contact-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer con íconos interactivos */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+       /* Responsive */
+       @media (max-width: 768px) {
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    #welcome-message{
+        text-align: left;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e74c3c; /* Color de fondo de la cabecera */
+        color: white; /* Color de texto de la cabecera */
+        padding: 10px;
+    }
+    .social-icons, .location-info, .logo {
+        display: flex;
+        gap: 10px;
+    }
+    .location-info .icon-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: left;
+    }
+    

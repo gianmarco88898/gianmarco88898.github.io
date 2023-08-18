@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barra de Tareas</title>
+  <style>
+    /* Estilos CSS para la barra de tareas */
+    .taskbar {
+      background-color: #333;
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 20px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+
+    .taskbar-item {
+      margin-left: 20px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="taskbar">
+    <div class="taskbar-item">Inicio</div>
+    <div class="taskbar-item">Archivos</div>
+    <div class="taskbar-item">Configuración</div>
+  </div>
+</body>
+</html>

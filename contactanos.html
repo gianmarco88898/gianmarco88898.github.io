@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighthing Fire Company SAC</title>
+    <link rel="stylesheet" href="contac.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="reca.css">
+    
+   
+</head>
+<body>
+      <!--CEBECERA DE LA PAGINA-->
+  <div class="header">
+    <div class="welcome-message">
+        <p>Bienvenidos a Fighthing Fire Company SAC, contamos con más de 13 años de experiencia</p>
+    </div>
+    <div class="social-icons">
+        <a href="link_whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="link_twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100082843497030&sk=photos"><i class="fab fa-facebook"></i></a>
+    </div>
+</div>
+    <!-- ESTA SECCION SERIA PARA LA CONFIGURACION QUE ESTA DEBAJO DE LA CABECERA LA IMAGEN DE LOGO Y SUS ICONOS DENTRO -->
+    <div class="company-info">
+        <!-- PARTE IZQUIERDA LOGO Y NOMBRE DE LA EMPRESA-->
+        <div class="company-logo">
+            <img src="logo 2.jpg" alt="Logo de la empresa">
+            <span class="company-name">Fighthing Fire Company SAC</span>
+        </div>
+        <!--PARTE DE LA COLUMNA DERECHA CORRESPONDIENTE DE LOS ICONOS Y EL TEXTO -->
+        <div class="contact-info icon-one">
+            <p><a href="link_direccion"><i class="fas fa-map-marker-alt icon-one"></i></a> Jr. Mancora 167 San Juan de Lurigancho, Lima</p>
+            <p><a href="link_telefono"><i class="fas fa-phone icon-one"></i></a> 936554689 A tu disposición</p>
+            <p><a href="link_email"><i class="far fa-envelope icon-one"></i></a> Ventas@Fighthing</p>
+        </div>
+    </div>
+</div>
+    <!-- BARRA DE MENU-->
+    <body>
+        <div class="menu">
+            <a href="INDEX.html">Inicio</a>
+            <a href="Empresa.html">Empresa</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactanos.html">Contactos</a>
+        </div>
+        
+     <!-- ESTOS CODIGOS SON CORRESPONDIENTES AL FORMULARIO-->
+ 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="form-container">
+                        <h2 class="mb-4">Solicitud de Cotización</h2>
+                        <form action="guardar_datos.php" method="post">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label"><i class="fas fa-user"></i> Nombres y Apellidos</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="empresa" class="form-label"><i class="fas fa-building"></i> Nombre de la Empresa</label>
+                                <input type="text" id="empresa" name="empresa" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label"><i class="fas fa-envelope"></i> Correo Corporativo</label>
+                                <input type="email" id="correo" name="correo" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label"><i class="fas fa-phone"></i> Teléfono de Contacto</label>
+                                <input type="text" id="telefono" name="telefono" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="servicio" class="form-label"><i class="fas fa-list"></i> Servicio de Interés</label>
+                                <select id="servicio" name="servicio" class="form-select" required>
+                                    <option value="extintores">Extintores</option>
+                                    <option value="fumigacion">Fumigación</option>
+                                    <option value="limpieza">Limpieza de Cisternas</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="indicaciones" class="form-label"><i class="fas fa-comments"></i> Indicaciones Especiales</label>
+                                <textarea id="indicaciones" name="indicaciones" class="form-control" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn red-button">Enviar Solicitud</button>
+                        </form>
+                    </div>      
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+        </div>
+    </div>
+     <!-- ESTA PARTE ES CORRESPONDIENTE AL IFRAME DE LA UBICACION EN GOOGLEMAPS-->
+    <div class="map-container">
+        <div class="como-llegar">COMO LLEGAR:</div>
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.3198450936798!2d-77.01013945227143!3d-11.952343109997306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c55485743761%3A0xc8af8c18a11b1842!2s167%2C%20San%20Juan%20de%20Lurigancho%2015416!5e0!3m2!1ses-419!2spe!4v1692297998781!5m2!1ses-419!2spe" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- FRANJA AZUL CORRESPONDIENTE ASU TEXTO Y EL BOTON -->
+    <div class="footer">
+        <p>
+            Si Usted tiene cualquier duda estamos Disponibles ...
+            <a href="#" class="contact-button">Contáctenos</a>
+        </p>
+    </div>
+
+<!-- ACA TENEMOS LAS TRES COLUMNAS SEPARADAS DONDE TENDREMOS EL CONTACT OEL ICONO DE MOVILIDAD -->
+<div class="footer-options">
+    <!-- INFORMACION DE LA COLUMNA DE CONTACTO-->
+    <div class="footer-column">
+        <p class="footer-title">Información de Contacto</p>
+        <p><i class="fas fa-map-marker-alt icon-size"></i> Jr. Mancora 167 San Juan de Lurigancho - Lima</p>
+        <p><i class="fas fa-phone icon-size"></i> 936654158</p>
+        <p><i class="far fa-envelope icon-size"></i> ventas@figthfigthing.com</p>
+    </div>
+
+    <!-- COLUMNA DEL MEDIO  CON LA INFORMACION DE LA MOVILIDAD-->
+    <div class="footer-column">
+        <p class="footer-title">Despacho a Domicilio</p>
+        <p><i class="fas fa-shipping-fast icon-nine"></i> <span class="icon-text">Servicio gratuito de entrega y recojo de extintores en todo Lima Metropolitana.</span></p>
+    </div>
+
+    <!-- COLUMNA DERECHA CON INFORMACION DE LA EMPRESA Y EL LIBRO DE RECLAMACIONES-->
+    <div class="footer-column">
+        <p class="footer-title">Fighthing Fire Company SAC</p>
+        <p><i class="fas fa-info-circle"></i> <span class="icon-text">Todos nuestros extintores han sido fabricados con la máxima calidad y cumplen con las normas establecidas por defensa civil.</span></p>
+        <p><i class="fas fa-book"></i> <span class="icon-text"><a href="#">Libro de Reclamaciones</a></span></p>
+    </div>
+</div> 
+     <!--ACA ESTAN LOS ICONOS DE LOS METODO DE PAGO-->
+<div class="payment-footer">
+    <p class="footer-title">Métodos de Pago</p>
+    <a href="#">
+        <i class="fab fa-cc-visa"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-cc-mastercard"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-cc-amex"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-paypal"></i>
+    </a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+/* ESTILO DONDE SE DEFINE LA ALINEACION Y EL COLOR DEL HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #170055; /* COLOR CABECERA*/
+    color: white; /* COLOR DE TEXTO */
+    padding: 10px;
+}
+
+/* ESTILO PARA LA IMAGEN DEL LOGO DE LA EMPRESA*/
+.logo2 img {
+    width: 100px; /* AJUSTAR EL TAÑO DE LA IMG*/
+}
+
+/* ALINEACION DE LOS ICONOS DEL HEADER*/
+.contact-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* ESTILO PARA LOS ICONOS DE UBICACION OCNTACTO Y CORREO*/
+.contact-info i {
+    font-size: 1.1rem; /* AJUSTE EL TAMAÑO DE LOS ICONOS SEGUN SE REQUIERA */
+}
+
+/* ESTILO PARA LA BARRA DE MENU */
+.menu {
+    background-color: #5f0a01; /* COLOR BARRA DE MENU*/
+    color: white; /* COLOR DEL TEXT DE LA BARRA DE MENU */
+    padding: 10px;
+    text-align: center;
+}
+
+/* ESTILO DE ICONOS DE REDES SOCIALES */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a i {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 40px; /* AUMENTA EL TAMAÑO INICIAL*/
+}
+/* EFECTO DE CAMBIAR DE TAMAÑO AL PASAR EL PUNTERO EN LOS ICONOS*/
+.social-icons:hover {
+  
+    /*CAMBIO DE COLOR*/
+    color: #8B0000; 
+}
+/* CONFIGURACION PARA LA BARRA DE MENU*/
+.header .social-icons a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu {
+    background-color: #6B0000;
+    overflow: hidden;
+    
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #070044;
+}
+
+.blue-box {
+    background-color: #040041;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.footer {
+    background-color: #01053f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/*AUMENTA EL TAMAÑO DE LSO ICONOS ARRIBA DE LA BARRA DE MENU */
+.company-info i {
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #3498db;
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+/*PARTE CSS DE LA SECCION DE FOOTER DE EL BOTON DE CONTACTENOS*/
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0f0044;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a0202;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.option,
+.delivery,
+.complaints {
+    margin-bottom: 10px;
+}
+
+.option i,
+.delivery i,
+.complaints i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.footer {
+    background-color: #01053f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.logo-location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.logo {
+    flex: 0 0 30%;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.location-info {
+    flex: 0 0 65%;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-text a {
+    margin-right: 5px;
+}
